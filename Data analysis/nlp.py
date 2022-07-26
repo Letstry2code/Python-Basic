@@ -28,7 +28,7 @@ def spell_check(text):
 st.sidebar.title("NLP using TextBlob")
 msg = st.text_area("Enter something in English",height=300)
 if st.button("Update"):
-    st.sidebar.subheader("Your content")
+    st.sidebar.subheader("Your content : ")
     st.sidebar.write(msg)
 if msg:
     blob = TextBlob(msg)

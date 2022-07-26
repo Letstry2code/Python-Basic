@@ -10,7 +10,7 @@ class MyCalc:
     def area_of_rectangle(self,l,w):
         return l*w
 
-if __name=="__main__":
+if __name__=="__main__":
     c=MyCalc()
     print(c.simple_interest(100,10,2))
     print(c.compound_interest(100,10,2))
